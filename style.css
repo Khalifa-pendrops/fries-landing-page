@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    background: linear-gradient(to right, #FEF5F5, #DD9B09);
+    font-family: poppins;
+    color: #000000;
+}
+
+.pizz-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+ul a{
+    color: #000000D6;
+    text-decoration: none;
+}
+
+ul:active{
+    color: #000000;
+}
+
+button{
+    padding: .4rem 1.6rem;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn1{
+    color: #ffffff;
+    background-color: #885E00;
+    margin-right: 1rem;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.btn2{
+    color: #000000;
+    background-color: #ffffff01;
+    border: 1px solid;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 750px;
+}
+
+.texts h1{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+.texts p{
+    width: 650px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.btn3{
+    background-color: #DD9B09;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 1rem 1.2rem;
+}
+
+.btn4{
+    color: #000000;
+    background-color: #ffffff00;
+    border: 1px solid;
+    padding: 1rem 1.2rem;
+    font-size: 16px;
+    font-weight: 600px;
+}
