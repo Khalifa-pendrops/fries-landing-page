@@ -133,34 +133,38 @@ section {
 
 @media only screen and (max-width: 600px) {
     body{
-        max-width: 500px;
+        max-width: 30rem;
         width: 90%;
         margin: 0 auto;
+        padding: 2rem auto;
     }
 
     .pizza-container{
-        width: 32rem;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0 auto;
+        align-items: center;  
     }
 
     header{
-       padding: 0;
        font-size: .6rem;
-       width: 70%;
+       width: 20rem;
        display: flex;
        justify-content: center;
        align-items: center;
        gap: 1rem;
+       flex-wrap: nowrap;
        
     }
 
+    nav ul{
+        display: flex;
+        gap: .2rem;
+    }
+
     ul li{
-        font-size: .6rem;
+        font-size: .4rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -169,28 +173,29 @@ section {
 
     li a{
         width: auto;
-        padding: .2rem.6rem;
+        padding: .2rem .4rem;
         text-wrap: nowrap;
     }
 
     .logo{
-        width: 50px;
+        width: 2rem;
     }
 
     .call-to-action{
         display: flex;
-        width: auto;
+        gap: .2rem;
     }
 
     .btn1{
-        font-size: .5rem;
-        padding: .6rem;
+        font-size: .4rem;
+        padding: .2rem .4rem;
         border-radius: 3px;
+        margin-right: 0;
     }
 
     .btn2{
-        font-size: .6rem;
-        padding: .2rem .6rem;
+        font-size: .4rem;
+        padding: .2rem .4rem;
         text-wrap: nowrap;
         border-radius: 3px;
     }
@@ -206,7 +211,7 @@ section {
     }
 
     .texts{
-        width: 25rem;
+        width: 22rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -216,16 +221,18 @@ section {
     }
 
     .texts h1{
-        font-size: 2rem;
-        line-height: 3rem;
-        width: 32.5rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        width: 20rem;
         padding: .6rem;
     }
 
     .texts p{
-        font-size: .8rem;
-        width: 18.75rem;
-        line-height: 1.5rem;
+        font-weight: 400;
+        font-size: .6rem;
+        width: 16rem;
+        line-height: 1.2rem;
     }
 
     .buttons{
@@ -236,12 +243,12 @@ section {
     }
 
     .main-image{
-        width: 80%;
+        width: 60%;
     }
 
     .btn3, .btn4{
-        padding: .4rem .8rem;
-        font-size: .6rem;
+        padding: .2rem .4rem;
+        font-size: .4rem;
         border-radius: 3px;
     }
 }
